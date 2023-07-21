@@ -1,0 +1,91 @@
+let cpu = Math.floor(Math.random() * 100);
+
+let arr = [
+  `Why don't scientists trust atoms? Because they make up everything.`,
+  `Why did the scarecrow win an award? Because he was outstanding in his field.`,
+
+  `Why did the bicycle fall over? It was two-tired.`,
+  ` Why don't skeletons fight each other? They don't have the guts.`,
+
+  `Why don't oysters donate to charity? Because they are shellfish.`,
+
+  `Why don't some couples go to the gym? Because some relationships don't work out.`,
+
+  `What do you call a snowman with a six-pack? An abdominal snowman.`,
+
+  ` Why did the tomato turn red? Because it saw the salad dressing.`,
+
+  `Why did the bicycle fall over? It was two-tired.`,
+
+  `What did one ocean say to the other ocean? Nothing, they just waved.`,
+  `Why dont some couples go to the gym? Because some relationships dont work out.`,
+  `What do you call a snowman with a six-pack? An abdominal snowman.`,
+
+  `What do you call a bear with no ears? B.`,
+  `Why don't scientists trust atoms? Because they make up everything.`,
+  `Why did the scarecrow win an award? Because he was outstanding in his field.
+ What do you call fake spaghetti? An impasta.`,
+  `Why did the bicycle fall over? It was two-tired.`,
+  ` Why don't skeletons fight each other? They don't have the guts.`,
+  `What do you call a bear with no teeth? A gummy bear.
+ How do you organize a space party? You planet.`,
+  `Why don't oysters donate to charity? Because they are shellfish.`,
+  ` What did one ocean say to the other ocean? Nothing, they just waved.`,
+  `Why did the tomato turn red? Because it saw the salad dressing.`,
+  `Why don't some couples go to the gym? Because some relationships don't work out.`,
+  ` Why did the golfer bring two pairs of pants? In case he got a hole in one.`,
+  `How do you catch a squirrel? Climb up a tree and act like a nut!`,
+  `What do you call a snowman with a six-pack? An abdominal snowman.`,
+  `Why did the scarecrow become a successful politician? He was outstanding in his field.`,
+  `What do you call a bear with no ears? B.`,
+  `Why don't scientists trust atoms? Because they make up everything.`,
+  `Why did the scarecrow win an award? Because he was outstanding in his field.`,
+  `What do you call fake spaghetti? An impasta.`,
+  `Why did the bicycle fall over? It was two-tired.`,
+  `Why don't skeletons fight each other? They don't have the guts.`,
+  `What do you call a bear with no teeth? A gummy bear.`,
+  `How do you organize a space party? You planet.`,
+  `Why don't oysters donate to charity? Because they are shellfish.`,
+  `What did one ocean say to the other ocean? Nothing, they just waved.`,
+  `Why did the tomato turn red? Because it saw the salad dressing.`,
+  `Why don't some couples go to the gym? Because some relationships don't work out.`,
+  `Why did the golfer bring two pairs of pants? In case he got a hole in one.`,
+  `How do you catch a squirrel? Climb up a tree and act like a nut!`,
+  `What do you call a snowman with a six-pack? An abdominal snowman.`,
+  `Why did the scarecrow become a successful politician? He was outstanding in his field.`,
+  `What do you call a bear with no ears? B.`,
+  `Why don't scientists trust atoms? Because they make up everything.`,
+  `Why did the scarecrow win an award? Because he was outstanding in his field.`,
+  `What do you call fake spaghetti? An impasta.`,
+  `Why did the bicycle fall over? It was two-tired.`,
+  ` Why don't skeletons fight each other? They don't have the guts.`,
+  `What do you call a bear with no teeth? A gummy bear.`,
+  `How do you organize a space party? You planet.`,
+  `Why don't oysters donate to charity? Because they are shellfish.`,
+  ` What did one ocean say to the other ocean? Nothing, they just waved.`,
+  `Why did the tomato turn red? Because it saw the salad dressing.`,
+  `Why don't some couples go to the gym? Because some relationships don't work out.`,
+  `Why did the golfer bring two pairs of pants? In case he got a hole in one.`,
+  `How do you catch a squirrel? Climb up a tree and act like a nut!`,
+  `What do you call a snowman with a six-pack? An abdominal snowman.`,
+  ` Why did the scarecrow become a successful politician? He was outstanding in his field.`,
+  `What do you call a bear with no ears? B.`,
+  `Why don't scientists trust atoms? Because they make up everything.`,
+  ` Why did the scarecrow win an award? Because he was outstanding in his field.`,
+  `What do you call fake spaghetti? An impasta.`,
+  `Why did the bicycle fall over? It was two-tired.`,
+  ` Why don't skeletons fight each other? They don't have the guts.`,
+  `What do you call a bear with no teeth? A gummy bear`,
+  `How do you organize a space party? You planet.`,
+  `Why don't oysters donate to charity? Because they are shellfish.`,
+  `What did one ocean say to the other ocean? Nothing, they just waved.`,
+  `Why did the tomato turn red? Because it saw the salad dressing.`,
+  `Why don't some couples go to the gym? Because some relationships don't work out.`,
+  `Why did the golfer bring two pairs of pants? In case he got a hole in one.`,
+  `How do you catch a squirrel? Climb up a tree and act like a nut!`,
+  `What do you call a snowman with a six-pack? An abdominal snowman.`,
+  `Why did the scarecrow become a successful politician,`,
+][cpu];
+
+document.getElementsByClassName("joke")[0].innerHTML = arr
+    
