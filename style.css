@@ -5,3 +5,15 @@ h1{
 .joke{
     display: flex;
 }
+nav{
+    margin-bottom: 10px;
+}
+.card-header{
+    display: flex;
+    justify-content: center;
+    font-size: large;
+    margin: 5 15px;
+}
+.card{
+    margin: 0 15px;
+}

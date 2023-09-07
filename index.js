@@ -1,4 +1,4 @@
-let cpu = Math.floor(Math.random() * 100);
+let cpu = Math.floor(Math.random() * 80);
 
 let arr = [
   `Why don't scientists trust atoms? Because they make up everything.`,
@@ -88,4 +88,3 @@ let arr = [
 ][cpu];
 
 document.getElementsByClassName("joke")[0].innerHTML = arr
-    
